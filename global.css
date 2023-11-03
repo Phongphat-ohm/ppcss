@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: auto; /* หรือไม่ระบุค่าเลย */
+    margin: 5px;
+    border: 0.5px solid rgb(99, 96, 255);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card .card-header {
+    padding: 8px;
+    background: rgb(99, 69, 255);
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card .card-body .list a {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-decoration: none;
+    border-bottom: 1.5px solid #dddbdb;
+    color: #000;
+}
+
+.card .card-body .list a:last-child{
+    border: none;
+}
+
+.card .card-body .list a:hover {
+    background: #dddbdb;
+}
